@@ -1,4 +1,4 @@
-def oxford_comma(array)
+def oxford_comma(kiwi)
   array = []
   array.join(" ")
 end
