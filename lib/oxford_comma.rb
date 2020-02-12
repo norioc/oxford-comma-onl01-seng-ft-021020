@@ -7,10 +7,12 @@ def oxford_comma(array)
   array.join(" and ")
   
   elsif array.length == 3
+  lastStr = array.pop
   array.join(", ") << ", and #{lastStr}"
   
   else array.length > 3
-  array.insert(4, and ) 
+  lastStr = array.pop
+  array.join(", ")
   
   
 end
