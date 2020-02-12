@@ -11,7 +11,7 @@ def oxford_comma(array)
   array.join(", ") << ", and #{lastStr}"
   
   else array.length > 3
-  array.insert(", and ") << ", and #{lastStr}"
+  array.insert(4, and ) 
   
   
 end
