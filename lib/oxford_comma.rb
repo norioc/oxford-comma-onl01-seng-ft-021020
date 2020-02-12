@@ -12,7 +12,7 @@ def oxford_comma(array)
   
   else array.length > 3
   lastStr = array.pop
-  array.join(", ")
+  array.join(", ") << ", and #{lastStr}"
   
   
 end
